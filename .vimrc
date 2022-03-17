@@ -93,6 +93,6 @@ highlight ColorColumn ctermbg=238
 set laststatus=2
 
 let g:NERDCustomDelimiters = {
- \ 'c': { 'left': '/*', 'right': '*/', 'leftAlt': '//' },
- \ 'cpp': { 'left': '/*', 'right': '*/', 'leftAlt': '//' }
+ \ 'c': { 'left': '/* ', 'right': ' */', 'leftAlt': '// ' },
+ \ 'cpp': { 'left': '/* ', 'right': ' */', 'leftAlt': '// ' }
 \}
